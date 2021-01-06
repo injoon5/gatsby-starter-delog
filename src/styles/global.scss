@@ -221,12 +221,16 @@ a {
 .card {
   display: grid;
   background-color: var(--card-bg);
-  backdrop-filter: blur(90px);
+
   border-radius: 9px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.60 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
   &:hover .post-link {
     color: var(--primary-color);
   }
