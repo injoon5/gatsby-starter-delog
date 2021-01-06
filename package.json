@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-delog",
-  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
-  "author": "W3Layouts Team <info@w3layouts.com>",
+  "name": "injoon5 Blog",
+  "description": "개발자가 되고싶은 이대부초 4학년(곧 5학년)의 블로그 입니다.",
+  "author": "injoon5",
   "version": "1.6.0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/W3Layouts/gatsby-starter-delog/issues"
+    "url": "https://github.com/injoon5/gatsby-starter-delog/issues"
   },
   "dependencies": {
     "gatsby": "^2.21.0",
