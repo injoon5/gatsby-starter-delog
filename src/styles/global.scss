@@ -151,9 +151,12 @@ a {
 .post {
   padding: 0;
   background:var(--background);
-  backdrop-filter: blur(90px);
   color: var(--text-color);
   line-height: 1.5;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.60 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;
