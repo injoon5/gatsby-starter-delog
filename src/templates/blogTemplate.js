@@ -15,8 +15,8 @@ export default function Template({
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
-      <div className="blog-post-container"  style={{backdrop-filter: blur(90px);}}>
-        <div className="post"  style={{backdrop-filter: blur(90px);}}>
+      <div className="blog-post-container"  style="backdrop-filter: blur(90px);">
+        <div className="post"  style="backdrop-filter: blur(90px);">
           
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
