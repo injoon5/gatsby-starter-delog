@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "injoon5 블로그",
+  "siteUrl": "https://ij5blog.netlify.app",
+  "description": "개발자가 되고싶은 이대부초 4학년(곧 5학년)의 블로그 입니다.  ",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "injoon5 블로그",
+    "description": "개발자가 되고싶은 이대부초 4학년(곧 5학년)의 블로그 입니다.  웹 개발에 흥미를 가지고 있고, C언어를 배우고 있습니다. 터미널에서 제 정보를 보려면 npx injoon5를 쳐보세요!"
   }
 }
