@@ -37,7 +37,7 @@ const notFound = () => {
             fill="currentColor"
           />
         </svg>
-        <p>404 - 페이지가 낫을 찾았다</p> <br> <p><del>번역이...... 이상하네요 죄송하빈다. </del>  집으로 <Link to="/">ㄱㄱ</Link></p>
+        <p>404 - 페이지가 낫을 찾았다 - 집으로 <Link to="/">ㄱㄱ</Link></p>
       </div>
     </Layout>
   )
