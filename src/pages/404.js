@@ -7,7 +7,7 @@ const notFound = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Page not found</title>
+        <title>404 - 페이지가 낫을 찾았다</title>
       </Helmet>
       <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5"}}>
         <svg
@@ -37,7 +37,7 @@ const notFound = () => {
             fill="currentColor"
           />
         </svg>
-        <p>Either you are in a wrong page or you have lost. Lets go back <Link to="/">home</Link> safely</p>
+        <p>번역이...... 이상하네요 죄송하빈다. <Link to="/">집으로!</Link> safely</p>
       </div>
     </Layout>
   )
