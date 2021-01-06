@@ -42,7 +42,21 @@ export default function Template({
         async>
         </script>
         </div>
+        <script src="https://utteranc.es/client.js"
+        repo="injoon5/gatsby-starter-delog"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
       </div>
+        <script src="https://utteranc.es/client.js"
+        repo="injoon5/gatsby-starter-delog"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
     </Layout>
   )
 }
