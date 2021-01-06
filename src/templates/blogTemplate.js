@@ -34,8 +34,6 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-        </div>
-        <br>
         <script src="https://utteranc.es/client.js"
         repo="injoon5/gatsby-starter-delog"
         issue-term="title"
@@ -43,6 +41,7 @@ export default function Template({
         crossorigin="anonymous"
         async>
         </script>
+        </div>
       </div>
     </Layout>
   )
