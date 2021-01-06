@@ -35,6 +35,14 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
+        <br>
+        <script src="https://utteranc.es/client.js"
+        repo="injoon5/gatsby-starter-delog"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
       </div>
     </Layout>
   )
