@@ -16,7 +16,7 @@ export default function Template({
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
-        <article className="post">
+        <div className="post">
           
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
@@ -34,7 +34,7 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-        </article>
+        </div>
       </div>
     </Layout>
   )
